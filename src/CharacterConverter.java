@@ -18,7 +18,7 @@ public class CharacterConverter {
             System.out.println("Enter your desired character to find its frequency: ");
             String freqString = input.nextLine();
             if(freqString.length() != 1) {
-                System.out.println("Invalid. Please get one character");
+                System.out.println("Invalid. Please enter one character");
                 continue;
             }
 
